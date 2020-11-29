@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		/* Basic Options */
+		"target": "es5",
+		"module": "es2015",
+		"lib": [
+			"ES2020",
+			"DOM",
+			"DOM.Iterable",
+      "ScriptHost"
+		],
+		"sourceMap": true,
+		"removeComments": true,
+
+		/* Strict Type-Checking Options */
+		// "noEmitOnError": true,
+		// "strict": true,
+
+		/* Additional Checks */
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+
+		/* Module Resolution Options */
+		"moduleResolution": "node",
+	},
+
+	/* Explicitly Default Config */
+	"exclude": ["node_modules"]
+}
